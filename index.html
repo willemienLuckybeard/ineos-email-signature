@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1">
+    <meta name="color-scheme" content="normal">
+    <meta name="supported-color-schemes" content="normal">
+    <meta name="x-apple-disable-message-reformatting">
+    <title>Email Signature Preview</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js" type="application/javascript"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.10/dist/clipboard.min.js"></script>
+
+    <link rel="stylesheet" href="https://use.typekit.net/exu8uot.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="signature.html" rel="import" />
+
+    <link rel="preconnect" href="https://use.typekit.net">
+    <link rel="stylesheet" href="https://use.typekit.net/exu8uot.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <!--[if (gte mso 9)|(IE)]>
+                        <style type="text/css">
+                        @import url('https://use.typekit.net/exu8uot.css');
+                        table {
+                            border-collapse: collapse;
+                            border-spacing: 0;
+                            mso-table-lspace: 0pt !important;
+                            mso-table-rspace: 0pt !important; 
+                        }
+                        </style>
+                    <![endif]-->
+
+    <!--[if !mso]>
+                        <style>
+                            @import url('https://use.typekit.net/exu8uot.css');
+                            * {font-family: 'courier-std', 'Courier New', Courier, monospace, serif !important; }
+                        </style>
+                    <![endif]-->
+
+    <!--[if mso]>
+                        <style>
+                            @import url('https://use.typekit.net/exu8uot.css');
+                            * {font-family: 'courier-std', 'Courier New', Courier, monospace, serif !important; };
+                            table,
+                            td {
+                               border-collapse: collapse;
+                                border-spacing: 0;
+                                mso-table-lspace: 0pt !important;
+                                mso-table-rspace: 0pt !important; 
+                            }
+                        </style>
+                    <![endif]-->
+</head>
+
+<body class="main-body">
+    <div id="wrapper" class="wrapper" :style="{backgroundColor: shapes[activeShapeIndex].color}">
+        <div class="signature-container">
+
+            <h2 class="heading">Email Signature Preview</h2>
+
+            <div class="signature">
+                <!----------------------------------------
+                EMAIL TEMPLATE START
+                ------------------------------------------>
+                <!DOCTYPE html
+                    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+                <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+                    xmlns:o="urn:schemas-microsoft-com:office:office">
+
+                <head>
+                    <link rel="preconnect" href="https://use.typekit.net">
+                    <link rel="stylesheet" href="https://use.typekit.net/exu8uot.css">
+                    <!--[if gte mso 9]>
+                    <xml>
+                    <o:OfficeDocumentSettings>
+                    <o:AllowPNG/>
+                    <o:PixelsPerInch>96</o:PixelsPerInch>
+                    </o:OfficeDocumentSettings>
+                    </xml>
+                    <![endif]-->
+                    <!--[if mso]>
+                    <![endif]-->
+                    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                    <meta name="format-detection" content="date=no" />
+                    <meta name="format-detection" content="address=no" />
+                    <meta name="format-detection" content="telephone=no" />
+                    <meta name="x-apple-disable-message-reformatting" />
+                    <!--[if !mso]><!-->
+                    <link rel="preconnect" href="https://use.typekit.net">
+                    <link rel="stylesheet" href="https://use.typekit.net/exu8uot.css">
+                    <!--<![endif]-->
+                    <title>Email Signature Template</title>
+                </head>
+
+                <body class="body"
+                    style="padding:0 !important; margin:0 !important; display:block !important; min-width:100% !important; width:100% !important; -webkit-text-size-adjust:none;">
+                    <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="500"     style="background-color:white;margin:0; padding:0;color-scheme: light only; border-collapse: collapse !important; border-spacing: 0 !important;">
+                    <tr>
+                        <td width="9" style="width: 9px;"  :style="{backgroundColor: shapes[activeShapeIndex].color }">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="9"
+                        style="margin:0; padding:0;color-scheme: light only; border-collapse: collapse !important; border-spacing: 0 !important;">
+                        </table>
+                        </td>
+                        <td width="20" style="width: 20px; background-color: white;">
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="9"
+                        style="background-color: white;margin:0; padding:0;color-scheme: light only; border-collapse: collapse !important; border-spacing: 0 !important;">
+                        </table>
+                        </td>
+                        <td>
+                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="500"
+                        style="margin:0; padding:0;color-scheme: light only; border-collapse: collapse !important; border-spacing: 0 !important;">
+                        <tr>
+                            <td>
+                                <img style="color-scheme: light only; display: block; width: 70px; height: 40px; border: none; margin: 0; padding: 0;"
+                                                :src="assetsBaseURL+'/assets/img/logo/originalLogo.png'"
+                                                alt="" width="70" height="40" border="0">
+                            </td>
+                        </tr>
+                         <!-- EMPTY SPACE START -->
+                         <tr>
+                            <td style="margin: 0; padding: 0" height="20"></td>
+                        </tr>
+                        <!-- EMPTY SPACE END -->
+                        <tr>
+
+                            <td style="margin: 0; padding: 0" valign="top" width="291">
+                                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                    width="291"
+                                    style="color-scheme: light only; border-collapse: collapse !important; border-spacing: 0 !important;">
+                                    <tr>
+                                        <td
+                                            style="color-scheme: light only; font-family:  Arial, Helvetica, sans-serif !important; font-style: normal !important; font-weight: 700 !important; font-size: 15px !important; line-height: 18px !important; display: block !important; margin: 0; padding: 0">
+                                            <span
+                                                style="color:#071637;color-scheme: light only; font-family: Arial, Helvetica, sans-serif !important; font-style: normal !important; font-weight: 700 !important; font-size: 15px !important; line-height: 18px !important;  display: block !important">{{
+                                                name || 'Name Surname' }}</span>
+                                        </td>
+                                    </tr>
+                                    <!-- EMPTY SPACE START -->
+                                    <tr>
+                                        <td style="margin: 0; padding: 0" height="5"></td>
+                                    </tr>
+                                    <!-- EMPTY SPACE END -->
+                                    <tr>
+                                        <td
+                                            style="color-scheme: light only; font-family: Arial, Helvetica, sans-serif !important; font-style: normal !important; font-weight: 400 !important; font-size: 13px !important; line-height: 18px !important; display: block !important; margin: 0; padding: 0">
+                                            <span 
+                                                style="color: #071637; color-scheme: light only; font-family:  Arial, Helvetica, sans-serif !important; font-style: normal !important; font-weight: 400 !important; font-size: 13px !important; line-height: 18px !important;display: block !important">{{
+                                                position || 'Job Title' }}</span>
+                                        </td>
+                                    </tr>
+                                    <!-- EMPTY SPACE START -->
+                                    <tr>
+                                        <td style="margin: 0; padding: 0" height="17"></td>
+                                    </tr>
+                                    <!-- EMPTY SPACE END -->
+                                    <tr>
+                                        <td
+                                            style="color-scheme: light only; font-family: Arial, Helvetica, sans-serif !important; font-style: normal !important; font-weight: 400 !important; font-size: 11px !important; line-height: 13px !important; display: block !important; margin: 0; padding: 0">
+                                            <span 
+                                                style="color: #071637; color-scheme: light only; font-family:  Arial, Helvetica, sans-serif !important; font-style: normal !important; font-weight: 400 !important; font-size: 11px !important; line-height: 13px !important;display: block !important">{{
+                                                    address1 || 'Address Line 1' }}</span>
+                                        </td>
+                                    </tr>
+                                    <!-- EMPTY SPACE START -->
+                                    <tr>
+                                        <td style="margin: 0; padding: 0" height="3"></td>
+                                    </tr>
+                                    <!-- EMPTY SPACE END -->
+
+                                    <tr>
+                                        <td
+                                            style="color-scheme: light only; font-family: Arial, Helvetica, sans-serif !important; font-style: normal !important; font-weight: 400 !important; font-size: 11px !important; line-height: 13px !important; display: block !important; margin: 0; padding: 0">
+                                            <span 
+                                                style="color: #071637; color-scheme: light only; font-family:  Arial, Helvetica, sans-serif !important; font-style: normal !important; font-weight: 400 !important; font-size: 11px !important; line-height: 13px !important;display: block !important">{{
+                                                    address2 || 'Address Line 2' }}</span>
+                                        </td>
+                                    </tr>
+                                    <!-- EMPTY SPACE START -->
+                                    <tr>
+                                        <td style="margin: 0; padding: 0" height="3"></td>
+                                    </tr>
+                                    <!-- EMPTY SPACE END -->
+
+                                    <tr>
+                                        <td
+                                            style="color-scheme: light only; font-family: Arial, Helvetica, sans-serif !important; font-style: normal !important; font-weight: 400 !important; font-size: 11px !important; line-height: 13px !important; display: block !important; margin: 0; padding: 0">
+                                            <span 
+                                                style="color: #071637; color-scheme: light only; font-family:  Arial, Helvetica, sans-serif !important; font-style: normal !important; font-weight: 400 !important; font-size: 11px !important; line-height: 13px !important;display: block !important">{{
+                                                    address3 || 'Address Line 3' }}</span>
+                                        </td>
+                                    </tr>
+                                    <!-- EMPTY SPACE START -->
+                                    <tr>
+                                        <td style="margin: 0; padding: 0" height="3"></td>
+                                    </tr>
+                                    <!-- EMPTY SPACE END -->
+
+                                    <tr>
+                                        <td
+                                            style="color-scheme: light only; font-family: Arial, Helvetica, sans-serif !important; font-style: normal !important; font-weight: 400 !important; font-size: 11px !important; line-height: 13px !important; display: block !important; margin: 0; padding: 0">
+                                            <span
+                                                style="color: #071637; color-scheme: light only; font-family:  Arial, Helvetica, sans-serif !important; font-style: normal !important; font-weight: 400 !important; font-size: 11px !important; line-height: 13px !important;display: block !important">{{
+                                                address4 || 'Address Line 4' }}</span>
+                                        </td>
+                                    </tr>
+                                    <!-- EMPTY SPACE START -->
+                                    <tr>
+                                        <td style="margin: 0; padding: 0" height="3"></td>
+                                    </tr>
+                                    <!-- EMPTY SPACE END -->
+
+                                    <tr>
+                                        <td
+                                            style="color-scheme: light only !important; font-family: Arial, Helvetica, sans-serif !important; font-style: normal !important; font-weight: 400 !important; font-size: 11px !important; line-height: 13px !important; display: block !important; text-decoration: none !important; cursor: pointer !important; display: block !important; margin: 0; padding: 0">
+                                            <a :href="'mailto:'+email.split(' ').join('')"
+                                                style="color: #071637; color-scheme: light only !important; font-family: Arial, Helvetica, sans-serif !important; font-style: normal !important; font-weight: 400 !important; font-size: 11px !important; line-height: 13px !important; display: block !important; text-decoration: none !important; cursor: pointer !important; display: block !important">
+                                                <span 
+                                                    style="color: #071637;color-scheme: light only !important; font-family: Arial, Helvetica, sans-serif !important; font-style: normal !important; font-weight: 400 !important; font-size: 11px !important; line-height: 13px !important; display: block !important; text-decoration: none !important; cursor: pointer !important; display: block !important">{{
+                                                    email || 'name.surname@ineos.com' }}</span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <!-- EMPTY SPACE START -->
+                                    <tr>
+                                        <td style="margin: 0; padding: 0" height="3"></td>
+                                    </tr>
+                                    <!-- EMPTY SPACE END -->
+                                    <tr>
+                                        <td
+                                            style="color-scheme: light only !important; font-family:  Arial, Helvetica, sans-serif !important; font-style: normal !important; font-weight: 400 !important; font-size: 11px !important; line-height: 13px !important; display: block !important; text-decoration: none !important; cursor: pointer !important; display: block !important; margin: 0; padding: 0">
+                                            <a :href="'tel:'+tel.split(' ').join('')"
+                                                style="color-scheme: light only !important; font-family:  Arial, Helvetica, sans-serif !important; font-style: normal !important; font-weight: 400 !important; font-size: 11px !important; line-height: 13px !important; display: block !important; text-decoration: none !important; cursor: pointer !important; display: block !important">
+                                                <span 
+                                                    style="color: #071637;color-scheme: light only !important; font-family: Arial, Helvetica, sans-serif !important; font-style: normal !important; font-weight: 400 !important; font-size: 11px !important; line-height: 13px !important; display: block !important; text-decoration: none !important; cursor: pointer !important; display: block !important">{{
+                                                    tel || 't: +11 (0) 22 123 4567' }}</span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <!-- EMPTY SPACE START -->
+                                    <tr>
+                                        <td style="margin: 0; padding: 0" height="3"></td>
+                                    </tr>
+                                    <!-- EMPTY SPACE END -->
+                                    <tr>
+                                        <td
+                                            style="color-scheme: light only !important; font-family:  Arial, Helvetica, sans-serif !important; font-style: normal !important; font-weight: 400 !important; font-size: 11px !important; line-height: 13px !important; display: block !important; text-decoration: none !important; cursor: pointer !important; display: block !important; margin: 0; padding: 0">
+                                            <a :href="'tel:'+cell.split(' ').join('')"
+                                                style="color: #071637;color-scheme: light only !important; font-family:  Arial, Helvetica, sans-serif !important; font-style: normal !important; font-weight: 400 !important; font-size: 11px !important; line-height: 13px !important; display: block !important; text-decoration: none !important; cursor: pointer !important; display: block !important">
+                                                <span 
+                                                    style="color: #071637;color-scheme: light only !important; font-family: Arial, Helvetica, sans-serif !important; font-style: normal !important; font-weight: 400 !important; font-size: 11px !important; line-height: 13px !important; display: block !important; text-decoration: none !important; cursor: pointer !important; display: block !important">{{
+                                                        cell || 'm: +11 (0) 22 123 4567' }}</span>
+                                            </a>
+                                        </td>
+                                    </tr>
+
+                                </table>
+                            </td>
+                            <td valign="top" width="130" style="margin: 0; padding: 0;">
+                                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0"
+                                    width="130" class="container"
+                                    style="margin:0; padding:0; color-scheme: light only; border-collapse: collapse !important; border-spacing: 0 !important;">
+                                    <tr>
+                                        <td width="130" style="margin: 0; padding: 0;">
+                                            <img style="color-scheme: light only; display: block; width: 113px; height: 113px; border: none; margin: 0; padding: 0;"
+                                                :src="assetsBaseURL+'/assets/img/logo.png'"
+                                                alt="" width="113" height="113" border="0">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                        </td>
+                    </tr>
+                    </table>
+
+                    
+                </body>
+
+                </html>
+                <!----------------------------------------
+                EMAIL TEMPLATE END
+                ------------------------------------------>
+            </div>
+
+            <div class="form-wrapper">
+                <h3>Please fill in your email signature details below:</h3>
+
+                <div class="shape-container">
+                    <h4>Select your color</h4>
+
+                    <div class="shapes">
+                        <div v-for="(shape, index) in shapes" :key="shape.id" @click="selectShape(shape, index)"
+                            :style="{ borderColor: shape.selected ? 'black' : 'transparent',backgroundColor: shape.color }" class="shape">
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-input">
+                    <div class="field">
+                        <input type="text" v-model="name" placeholder="Name & Surname">
+                    </div>
+                    <div class="field">
+                        <input type="text" v-model="position" placeholder="Job Title">
+                    </div>
+                    <div class="field">
+                        <input type="text" v-model="address1" placeholder="Address Line 1">
+                    </div>
+                    <div class="field">
+                        <input type="text" v-model="address2" placeholder="Address Line 2">
+                    </div>
+                    <div class="field">
+                        <input type="text" v-model="address3" placeholder="Address Line 3">
+                    </div>
+                    <div class="field">
+                        <input type="text" v-model="address4" placeholder="Address Line 4">
+                    </div>
+                    <div class="field">
+                        <input type="text" v-model="email" placeholder="Your Email Address">
+                    </div>
+                    <div class="field">
+                        <input type="text" v-model="tel" placeholder="Telephone">
+                    </div>
+                    <div class="field">
+                        <input type="text" v-model="cell" placeholder="Mobile Number">
+                    </div>
+                </div>
+
+                <button type="button" id="copy-button" data-clipboard-target=".signature">Copy your new
+                    signature</button>
+            </div>
+
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

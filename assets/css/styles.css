@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+.wrapper {
+  min-width: 100%;
+  min-height: 100vh;
+  padding: 50px 0;
+  transition: all 0.2s;
+}
+
+.signature-container {
+  padding: 36px 50px;
+  background-color: #F3F3F3;
+  text-align: left;
+  margin: 0 auto;
+  max-width: 750px;
+  box-shadow: 1px 3px 3px rgba(74, 71, 95, 0.03),
+    2px 10px 15px rgba(74, 71, 95, 0.03), 0px 20px 50px rgba(74, 71, 95, 0.03);
+  border-radius: 25px;
+}
+
+.wrapper .heading {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 130%;
+  letter-spacing: -0.02em;
+}
+
+.form-wrapper {
+  margin-top: 30px;
+}
+
+.form-wrapper h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 130%;
+  letter-spacing: -0.02em;
+}
+
+.form-wrapper .shape-container {
+  margin-bottom: 34px;
+}
+
+.form-wrapper .shape-container h4 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+}
+
+.form-wrapper .shape-container .shapes {
+  display: flex;
+  width: 100%;
+}
+
+.form-wrapper .shape-container .shapes > div.shape {
+  width: calc(100% / 6);
+  height: 95px;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  margin-right: 13px;
+  transition: all 0.2s;
+  border-bottom: 3px solid;
+}
+.form-wrapper .shape-container .notSelected{
+border-radius: 15px;
+border: 5px solid transparent;
+}
+
+
+
+.form-wrapper .shape-container .shapes > div.shape:last-child {
+  margin-right: 0px;
+}
+
+.form-wrapper .form-input  {
+  margin-bottom: 48px;
+  
+}
+
+.form-wrapper .form-input input {
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 255%;
+  letter-spacing: 0.01em;
+  padding: 0 0px ;
+  width: 100%;
+  margin-bottom: 8px;
+  border:none;
+  border-bottom: 3px solid black;
+  background-color: transparent;
+}
+
+.form-wrapper .form-input input::placeholder {
+  color: #65636A;
+  font-family: 'Source Sans Pro';
+
+}
+
+.form-wrapper button {
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  color: #ffffff;
+  background: #2e2f36;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  margin-top: 24px;
+  transition: all 0.2s;
+  width: 240px;
+  height: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper button:hover {
+  background: #444550;
+}
+
+.colorBox {
+ 
+}
